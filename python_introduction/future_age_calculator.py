@@ -4,6 +4,6 @@ future_year = 2050
 current_year = 2023
 
 years_to_add = future_year - current_year
-age = current_age + years_to_add
+age_in_2050 = (current_age + years_to_add)
 
-print(f'In 2050, you will be {age} years old.')
+print(f'In 2050, you will be {age_in_2050} years old.')
