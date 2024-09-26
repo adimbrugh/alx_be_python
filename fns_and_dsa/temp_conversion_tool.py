@@ -21,7 +21,7 @@ def main():
     try:
         temp_input = input('Enter the temperature to convert: ')
         temperature = float(temp_input)
-        unit = input('Is this temperature in celsius or fahrenheit? (C/F): ').strip().upper()
+        unit = input('Is this temperature in Celsius or Fahrenheit? (C/F): ').strip().upper()
 
         if unit == 'F':
             celsius = convert_to_celsius(temperature)
@@ -30,7 +30,7 @@ def main():
             fahrenheit = convert_to_fahrenheit(temperature)
             print(f"{temperature} ْC is {fahrenheit} ْF")
         else:
-            print("Invald unit. Please enter 'C' for clesius or 'F' for fahrenheit")
+            print("Invald unit. Please enter 'C' for Clesius or 'F' for Fahrenheit")
     except ValueError:
             print('Invald temperature. Please enter a numeric value.')
 
