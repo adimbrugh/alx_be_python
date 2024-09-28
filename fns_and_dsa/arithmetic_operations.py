@@ -1,4 +1,6 @@
-def perform_operation(num1, num2, operation):
+
+
+def perform_operation(num1: float, num2:float, operation:str):
     if operation == 'add':
         return num1 + num2
     elif operation == 'subtract':
@@ -11,3 +13,4 @@ def perform_operation(num1, num2, operation):
         return num1 / num2 
     else:
         return 'Invald operation'
+    
